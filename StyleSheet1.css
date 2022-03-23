@@ -1,0 +1,60 @@
+﻿body
+{
+}
+.layout{
+    width : 1000px;
+    font-family: DX새마을2B;
+}
+.userInformation {
+    width: 75%;
+    height: 60px;
+}
+.index {
+    width: 75%;
+    height: 100px;
+}
+.index div{
+    color:dimgrey;
+}
+.index button{
+    border:0;
+    padding:0;
+    float:right;
+}
+.image {
+    height: 200px;
+    width: 200px;
+    float:right;
+    position:relative;
+}
+.image img{
+    max-width:100%;
+    height:auto;
+    display:block;
+
+}
+.image button {
+    border: 0;
+    padding: 0;
+    margin:0;
+    position:absolute;
+    top:162px;
+    left:163px;
+    opacity:0.5;
+}
+.profileImage{
+    width:50px;
+    float:left;
+    margin-right:10px;
+}
+h1 {
+    display: block;
+    font-size: large;
+    font-weight: bold;
+}
+.username {
+    font-weight:bold;
+}
+.time{
+    color:grey;
+}
