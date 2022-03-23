@@ -1,0 +1,56 @@
+﻿body {
+}
+.layout{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:515px;
+}
+.profileImage{
+    width:200px;
+    height:200px;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+.profileImage img{
+    width:inherit;
+    height:inherit;
+    border-radius:100%;
+}
+.information{
+    margin:10px;
+    border-bottom:1px solid grey;
+}
+.name {
+    font-size: 20px;
+    text-align:center;
+}
+.shortIntroduce {
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+.career {
+    line-height: 30px;
+}
+.selfIntroduce {
+    clear: both;
+    padding-top: 10px;
+    color: grey;
+    text-align: justify;
+    padding-bottom: 10px;
+    margin:10px;
+    border-bottom: 1px solid grey;
+}
+.address {
+    text-align:center;
+    padding:10px;
+}
+    .address div img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
