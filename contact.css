@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    position: relative;
+}
+
+.layout{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+}
+.layout h2{
+    padding-left: 8px;
+}
+.basicText{
+    margin: 5px;
+}
+.longTakeText{
+    height: 30px;
+    width: 340px;
+}
+
+.shortTakeText{
+    height: 30px;
+    width: 160px;
+}
+
+.thickTakeText{
+    height: 100px;
+    width: 340px;
+}
+.submit{
+    margin-left: auto;
+    width: 100px;
+    background-color: rgb(226, 226, 65);
+    color: white;
+}
+.submitContainer{
+    display: flex;
+}
