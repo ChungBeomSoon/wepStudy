@@ -1,0 +1,37 @@
+
+.layout{
+    width: 1000px;
+    height: 150px;
+    box-shadow:2px 2px 2px 2px black;
+    border-radius: 5px;
+}
+
+.layout-box{
+    width: 240px;
+    height: 150px;
+    float: left;
+}
+.title{
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 900;
+
+}
+
+.content{
+    text-align: center;
+}
+
+@media screen and (max-width: 762px) {
+    .layout{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .layout{
+        width: 300px;
+        height: 700px;
+    }
+}
