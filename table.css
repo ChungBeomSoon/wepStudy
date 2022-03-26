@@ -1,0 +1,73 @@
+div, input, textarea{
+    box-sizing: border-box;
+} 
+body{
+    margin: 0px;
+}
+/* 기본적인 세팅 */
+
+.shoppingCart{
+    border-collapse:collapse ;
+    background-color:rgb(245, 243, 239);
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+}
+.shoppingCart th{
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+.shoppingCart tr{
+    border-bottom: 1px solid grey;
+
+}
+.shoppingCart img{
+    width: 100px;
+    height: 100px;
+}
+.priceTotal{
+    text-align: right;
+    padding: 20px;
+}
+.assignment{
+    text-align: right;
+    padding-right: 20px;
+    color: grey;
+}
+.price{
+    color: grey;
+}
+.buyButton{
+    width: 500px;
+}
+.buyButton button{
+    float:right;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    bottom: 40px;
+    cursor: pointer;
+}
+
+.buyButton button:hover{
+    background-color: grey;
+}
+.buyButton button:focus{
+    background-color: ivory;
+}
+.buyButton button:active{
+    background-color: grey;
+    border: 2px solid black;
+}
+
+.inputTest:focus{
+    border: 2px solid red;
+}
+
+.buyButton a:link{
+    color: darkcyan;
+}
+.buyButton a:visited{
+    color: black;
+}

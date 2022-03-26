@@ -1,0 +1,55 @@
+@font-face {
+    font-family:'배민도현';
+    font-weight: 900;
+    src: url(fonts/otf/BMDOHYEON_otf.otf);
+}
+/* 폰트 첨부 */
+body{
+    margin: 0px;
+    font-size: large;
+}
+h1 {
+    font-family:'배민도현';
+}
+h2 {
+font-family: 'Black Han Sans', sans-serif;
+}
+.basicFont{
+    font-family:'배민도현';
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* 배치 방향 정하기 */
+    /* justify-items 중앙정렬*/
+} 
+/* 박스들 가로배치하는 방법 */
+
+.flexItem{
+    width: 50vh;
+    height: 10vw;
+    background-color: black;
+    border: 5px solid yellow;
+}
+
+.navBar{
+    display: flex;
+    width: 40em;
+    /* em 내 폰트사이즈의 배수 */
+    height: 3rem;
+    background-color: rosybrown;
+    vertical-align: middle;
+}
+.navLogo{
+    flex-grow: 1;
+    text-align: left;
+}
+.navMenu{
+    display: flex;
+}

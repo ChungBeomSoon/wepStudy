@@ -1,0 +1,69 @@
+.navbar>li{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+.navbar a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.mainBackground{
+    width: 100%;
+    height: 300px;
+    background-image: url(image/img.jpg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+    position: relative;
+    border-radius: 20px;
+}
+.mainTitle{
+    color:white;
+    font-size: 40px;
+    margin-top: 300px;
+    text-align: center;
+}
+.mainBackground p{
+    color:white;
+    
+}
+.mainButton{
+    padding: 15px;
+    font-size: 20px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:auto;
+    width: 100px;
+}
+.letterBox {
+       background-color: beige;
+       height: 200px;
+       width: 50%;
+       max-width: 300px;
+       box-sizing: border-box;
+       padding: 20px;
+       border-radius: 10%;
+       text-align: center;
+       position:relative;
+       margin: auto;
+       top:-100px;
+
+}
+@media screen and (max-width: 1000px){
+    .mainTitle{
+        font-size: 20px;
+    }
+    .navItem{
+        font-size: 12px;
+    }
+}
+/* media query logic */
+/* 1200px 992px 762px 576px breakpoint임. */
