@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+
+}
+h3{
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+h2{
+    margin-top: 0;
+}
+.header{
+    width:100%;
+    height: 600px;
+    color: white;
+    background-color: rgb(94, 94, 204);
+    padding: 1px;
+    display: flex;
+}
+.header-info{
+    flex-grow: 1;
+}
+.header-info h1{
+    width: 300px;
+    margin: 50px;
+}
+.header-info p{
+    font-size: larger;
+    width: 300px;
+    margin-left: 50px;
+}
+.button{
+    width: 200px;
+    height: 80px;
+    color: white;
+    background-color: rgb(62, 61, 66);
+    font-size: x-large;
+    border-radius: 10px;
+    border: 0px solid black;
+    cursor: pointer;
+    margin: 50px;
+}
+.button:hover{
+    background-color: rgb(68, 66, 66);
+}
+.button:active{
+    background-color: rgb(0, 0, 0);
+}
+.header-img{
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+    
+}
+.header-img img{
+    width: inherit;
+    height: inherit;
+    
+}
+
+.sub-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height: 300px;
+}
+
+.content{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(84, 84, 185);
+    color: white;
+
+}
+.content-list{
+    display: flex;
+}
+
+.content-list-ch{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
+
+.content-list-ch i{
+    font-size: 60px;
+    color: rgb(84, 84, 185);
+    padding: 20px;
+}
+
+.sub-content{
+    width: 100%;
+    height:800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-content-menu-box h3,p{
+    padding-left: 30px;
+
+}
+.sub-content-menu{
+    display: flex;
+    width: 900px;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+.sub-content-menu-box {
+    width: 400px;
+    height: 250px;
+    color: white;
+}
+.img1{
+    background : url(image/pexels-hemil-dhanani-11291986.jpg) fixed;
+    background-size:cover;
+}
+.img2{
+    background : url(https://cdn.pixabay.com/photo/2022/03/16/06/18/bird-7071662_640.jpg) fixed;
+    background-size:cover;
+}
+.img3{
+    background: url(https://cdn.pixabay.com/photo/2018/11/19/15/06/machang-bridge-3825439_640.jpg) fixed;
+    background-size: cover;
+}
+.img4{
+    background: url(https://cdn.pixabay.com/photo/2022/02/26/21/47/elephant-7036431_640.jpg) fixed;
+    background-size: cover;
+}
+.sub-content-menu-box:hover{
+    width: 900px;
+    height: 500px;
+    animation: bigger 2s forwards ;
+    border: 1px solid white;
+}
+@keyframes bigger{
+    from{
+        position: relative;
+        width: 400px;
+        height: 250px;
+    }
+    to{
+        width: 800px;
+        height: 500px;
+        position: absolute;
+    }
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 50px;
+}
+
+.footer div{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(84, 84, 185);
+    text-align: center;
+    border-radius: 100%;
+}
+.footer i{
+    color: white;
+    width: 50px;
+    padding-top: 15px;
+}
+.footer a{
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+@media screen and (max-width:576px) {
+    .header{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+
+    }
+    .header-info{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-info p{
+        margin: 20px;
+    }
+    .header-info input{
+        margin: 20px;
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .header-img{
+        margin: 0;        
+    }
+}
