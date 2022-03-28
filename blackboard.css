@@ -1,0 +1,42 @@
+body{
+    margin:0;
+}
+.background{
+    display: flex;
+}
+
+.layout{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 30px;
+}
+
+.class{
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    height: inherit;
+}
+.class-information{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: inherit;
+    height: inherit;
+}
+.class img{
+    width: 300px;
+    height: 100px;
+}
+.class-information p{
+    flex-grow: 2;
+}
+i{
+    padding-top: 20px;
+}
+
+.class:hover{
+    box-shadow: 3px 3px 3px 3px gray;
+    width: inherit;
+}
