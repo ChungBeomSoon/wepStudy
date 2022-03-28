@@ -10,6 +10,7 @@ h3{
 h2{
     margin-top: 0;
 }
+
 .header{
     width:100%;
     height: 600px;
@@ -105,25 +106,22 @@ h2{
     flex-direction: column;
     align-items: center;
 }
-.sub-content-menu-box h3,p{
-    padding-left: 30px;
-
-}
 .sub-content-menu{
+    width: 800px;
     display: flex;
-    width: 900px;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
-    z-index: 0;
 }
 .sub-content-menu-box {
     width: 400px;
     height: 250px;
+    margin: 1px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.5s;
 }
 .img1{
-    background : url(image/pexels-hemil-dhanani-11291986.jpg) fixed;
+    background : url(image/pexels-hemil-dhanani-11291986.jpg);
     background-size:cover;
 }
 .img2{
@@ -139,24 +137,21 @@ h2{
     background-size: cover;
 }
 .sub-content-menu-box:hover{
-    width: 900px;
-    height: 500px;
-    animation: bigger 2s forwards ;
     border: 1px solid white;
+    transform: scale(0.9);
 }
-@keyframes bigger{
+@keyframes identifier {
     from{
-        position: relative;
         width: 400px;
         height: 250px;
     }
     to{
-        width: 800px;
-        height: 500px;
-        position: absolute;
-    }
-}
+        width: 350px;
+        height: 200px;
 
+    }
+    
+}
 .footer{
     width: 100%;
     height: 100px;
