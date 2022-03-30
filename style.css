@@ -108,47 +108,54 @@ h2{
 }
 .sub-content-menu{
     width: 800px;
-    display: flex;
+    position: relative;
 }
-.sub-content-menu-box {
+.sub-content-box{
     width: 400px;
     height: 250px;
-    margin: 1px;
+    float: left;
     color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    transition: 0.5s;
+    position: relative;
+    box-sizing: border-box;
+
 }
-.img1{
-    background : url(image/pexels-hemil-dhanani-11291986.jpg);
-    background-size:cover;
+
+.img-box {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
-.img2{
-    background : url(https://cdn.pixabay.com/photo/2022/03/16/06/18/bird-7071662_640.jpg) fixed;
-    background-size:cover;
+.img-box img{
+    width: 100%;
+    height: 100%;
 }
-.img3{
-    background: url(https://cdn.pixabay.com/photo/2018/11/19/15/06/machang-bridge-3825439_640.jpg) fixed;
-    background-size: cover;
+.fuck1{
+    position: absolute;
+    left: 40px;
+    top: 30px;
 }
-.img4{
-    background: url(https://cdn.pixabay.com/photo/2022/02/26/21/47/elephant-7036431_640.jpg) fixed;
-    background-size: cover;
+.fuck2{
+    position: absolute;
+    left: 40px;
+    top: 80px;
 }
-.sub-content-menu-box:hover{
-    border: 1px solid white;
-    transform: scale(0.9);
+
+.sub-content-box:hover{
+    animation-name: identifier;
+    animation-duration: 0.5s;
 }
 @keyframes identifier {
     from{
-        width: 400px;
-        height: 250px;
+        border: 0 white;
     }
     to{
-        width: 350px;
-        height: 200px;
-
+        border: 20px solid white;
     }
     
 }
@@ -170,15 +177,16 @@ h2{
     background-color: rgb(84, 84, 185);
     text-align: center;
     border-radius: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .footer i{
     color: white;
-    width: 50px;
+    padding-left: 16px;
     padding-top: 15px;
 }
 .footer a{
     text-decoration: none;
-    padding-left: 16px;
 }
 
 @media screen and (max-width:576px) {
