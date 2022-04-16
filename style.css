@@ -117,13 +117,14 @@ h2{
     color: white;
     position: relative;
     box-sizing: border-box;
+    border: 20px white;
 
 }
 
 .img-box {
     position: absolute;
-    width: 400px;
-    height: 250px;
+    width: 398px;
+    height: 248px;
     position: absolute;
     z-index: -1;
     top: 50%;
@@ -148,11 +149,11 @@ h2{
 
 .sub-content-box:hover{
     animation-name: identifier;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
 }
 @keyframes identifier {
     from{
-        border: 0 white;
+        border: 0px white;
     }
     to{
         border: 20px solid white;
