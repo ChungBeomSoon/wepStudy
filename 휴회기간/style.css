@@ -1,0 +1,86 @@
+:root {
+    --num : translateX(0vw);
+}
+
+.dark{
+    background: black;
+    color: white;
+}
+
+.navbar {
+    position : fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.alert-box{
+    background-color: skyblue;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    display: none;
+}
+
+.list-group{
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    transition:all 1s;
+}
+.main-bg{
+    padding: 100px 20px;
+    background: lightgrey;
+}
+.black-bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    z-index : 5;
+    padding: 30px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+    
+}
+.white-bg {
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.slide-container {
+    width: 300vw;
+    transition: all 1s;
+    transform:var(--num);
+}
+
+.slide-box {
+    width: 100vw;
+    float: left;
+}
+
+.slide-box img {
+    width: 100%;
+    height: 30vh;
+}
+
+
+.show-opacity{
+    visibility: visible;
+    opacity: 1;
+}
+.show-overflow{
+    visibility: visible;
+    height: 210px;
+}
+
+.none{
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+}
